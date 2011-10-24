@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Roy van der Meij"]
   s.date = "2011-10-24"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Activeresource gem for webistrano"
   s.email = "royalain@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -33,13 +33,14 @@ Gem::Specification.new do |s|
     "spec/models/deployment_spec.rb",
     "spec/models/project_spec.rb",
     "spec/models/stage_spec.rb",
-    "spec/spec_helper.rb"
+    "spec/spec_helper.rb",
+    "webistrano-resource.gemspec"
   ]
   s.homepage = "http://github.com/roy/webistrano-resource"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Activeresource gem for webistrano"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
